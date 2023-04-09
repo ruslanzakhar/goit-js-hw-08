@@ -47,7 +47,7 @@ function onBtnSubmitClick(evt){
         console.log(error.message); 
       }
       if (form.email.value === "" || form.message.value === "") {
-        alert ("Please fill in all the fields!");
+        return alert ("Please fill in all the fields!");
       }
 
     evt.currentTarget.reset();
